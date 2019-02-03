@@ -71,8 +71,6 @@ if __name__ == '__main__':
 	#	3) Use a.reshape(-1,1), where a is a np.array, to reshape the array
 	#	   to appropraite shape for generating plot
 
-	X_space = []
-	y_space = []
 	"*** YOUR CODE HERE ***"
 	X_space=np.linspace(start=-1,stop=5,num=100)
 	y_space=np.add(np.multiply(X_space,m_opt),b_opt)
@@ -94,7 +92,6 @@ if __name__ == '__main__':
 	# TODO: Generate white Gaussian noise
 	# HINT: Use np.random.normal to generate noise
 
-	noise = []
 	"*** YOUR CODE HERE ***"
 	noise=np.random.normal(mu,sigma,sampleSize)
 
